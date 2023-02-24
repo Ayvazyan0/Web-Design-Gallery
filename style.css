@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header .header_bg{
+    background-image: url(header/header_bg.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: 1500px;
+    height: auto;
+}
+
+header .header_text{
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 50px;
+    color: white;
+}
+
+header .header_pictures .picture_1{
+    border: none;
+    height: 200px;
+    width: 341px;
+    float: left;
+    background-image: url(header/image_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px 200px;
+    position: absolute;
+}
+
+header .header_pictures .picture_2{
+    border: none;
+    height: 200px;
+    width: 345px;
+    float: left;
+    background-image: url(header/image_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 345px 200px;
+    position: absolute;
+    left: 340px;
+}
+
+header .header_pictures .picture_3{
+    border: none;
+    height: 200px;
+    width: 341px;
+    float: left;
+    background-image: url(header/image_3.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px 200px;
+    position: absolute;
+    right: 340px;
+}
+
+header .header_pictures .picture_4{
+    border: none;
+    height: 200px;
+    width: 341px;
+    float: left;
+    background-image: url(header/image_4.jpg);
+    background-repeat: no-repeat;
+    background-size: 342px 200px;
+    position: absolute;
+    right: 0px;
+}
+
+
+.body_menu div{
+    border: solid 3px;
+    float: left;
+    font-size: larger;
+    margin-top: 250px;
+    margin-left: 100px;
+    padding:  10px 30px 10px 30px;
+    border-radius: 5px;
+    border-color: rgb(4, 58, 138);
+    color: rgb(4, 58, 138);
+    text-size-adjust: 5px;
+}
+
+.body_menu div:hover{
+    background-color: rgb(4, 58, 138);
+    color: white;
+}
+
+
+.up_line div{
+    border: none;
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius: 2px;
+}
+
+.up_line .image_1{
+    background-image: url(image/up_line_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.up_line .image_2{
+    background-image: url(image/up_line_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.up_line .image_3{
+    background-image: url(image/up_line_3.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.up_line .image_4{
+    background-image: url(image/up_line_4.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.under_line div{
+    border: none;
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 2px;
+}
+
+.under_line .image_1{
+    background-image: url(image/under_line_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.under_line .image_2{
+    background-image: url(image/under_line_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.under_line .image_3{
+    background-image: url(image/under_line_3.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
+
+.under_line .image_4{
+    background-image: url(image/under_line_4.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+}
